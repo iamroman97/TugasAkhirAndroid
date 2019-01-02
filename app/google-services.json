@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "758062260836",
+    "firebase_url": "https://tugas-3d8f8.firebaseio.com",
+    "project_id": "tugas-3d8f8",
+    "storage_bucket": "tugas-3d8f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758062260836:android:d9fb729beb1b06bb",
+        "android_client_info": {
+          "package_name": "com.bsnp.shoohibuzzuhry.tugas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758062260836-ag00ab5v77v1mnjg0j3fag5eoo6hgh53.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bsnp.shoohibuzzuhry.tugas",
+            "certificate_hash": "7397ffc400a830a46842f8f180f6c95915d7273e"
+          }
+        },
+        {
+          "client_id": "758062260836-sdpndi9dfu2v79n249vqna5iib2cidks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsabNB6L0tcLdbUIaeCARfoxWWMvwJvxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758062260836-sdpndi9dfu2v79n249vqna5iib2cidks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

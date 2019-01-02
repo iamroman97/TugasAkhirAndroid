@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Judul"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="text"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:id="@+id/form_judul"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Isi"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="text"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:id="@+id/form_isi"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Kategori"/>
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/form_kategori">
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Makanan"
+			android:checked="true"
+			android:id="@+id/form_makanan"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Olahraga"
+			android:id="@+id/form_olahraga"/>
+
+	</RadioGroup>
+
+</LinearLayout>
+
